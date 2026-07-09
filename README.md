@@ -1,6 +1,6 @@
 # Enterprise Network Design
 
-![InfraCore Solutions](assets/logo/infracore-logo.png)
+![InfraCore Solutions](diagrams/logo/.png)
 
 ---
 
