@@ -1,37 +1,64 @@
 # Client Requirements
 
-## Client
+## Client Information
 
-GreenFields Logistics Ltd.
+**Client:** GreenFields Logistics Ltd.
 
-## Business Description
+**Industry:** Logistics & Supply Chain
 
-GreenFields Logistics is a medium-sized logistics company operating across Kenya. The company is expanding rapidly and requires a modern enterprise network.
+**Headquarters:** Nairobi, Kenya
 
----
-
-## Current Challenges
-
-- Flat network
-- No centralized authentication
-- Poor Wi-Fi coverage
-- No VLAN segmentation
-- Limited security
-- No VPN access
-- Difficult network management
+**Employees:** 120
 
 ---
 
-## Project Requirements
+# Business Background
 
-- High-speed LAN
-- Secure Wi-Fi
-- Guest Wi-Fi
-- Active Directory
-- DNS
-- DHCP
+GreenFields Logistics Ltd. is a growing logistics company that requires a modern, secure, and scalable IT infrastructure to support its daily operations and future expansion.
+
+The company currently operates from its headquarters in Nairobi and plans to establish additional branches in Mombasa and Kisumu.
+
+---
+
+# Current Challenges
+
+The client currently faces the following challenges:
+
+- Flat network with no segmentation
+- Poor wireless coverage
+- Limited network security
+- No centralized user management
+- No VPN for remote employees
+- Aging network equipment
+- Lack of network documentation
+
+---
+
+# Project Requirements
+
+InfraCore Solutions has been contracted to design an enterprise network that includes:
+
+- Secure wired network
+- Secure wireless network
+- VLAN segmentation
+- Active Directory integration
+- DHCP and DNS services
 - File Server
-- CCTV Network
-- Firewall
-- VPN
+- Network printer support
+- CCTV network
+- Guest Wi-Fi
+- Firewall protection
+- VPN connectivity
 - Future branch expansion
+
+---
+
+# Success Criteria
+
+The project will be considered successful if:
+
+- All departments are securely connected.
+- Network performance is improved.
+- Sensitive departments are isolated using VLANs.
+- Users can access company resources securely.
+- The infrastructure can scale as the company grows.
