@@ -1,1 +1,58 @@
+# VLAN Design
 
+## Overview
+
+To improve security, reduce broadcast traffic, and simplify network management, the GreenFields Logistics Ltd. network is segmented into multiple Virtual Local Area Networks (VLANs).
+
+Each department is assigned a dedicated VLAN based on its operational requirements.
+
+---
+
+# VLAN Allocation
+
+| VLAN ID | Department | Network | Gateway |
+|----------|------------|---------|----------|
+| 10 | Management | 10.10.10.0/24 | 10.10.10.1 |
+| 20 | ICT | 10.10.20.0/24 | 10.10.20.1 |
+| 30 | Human Resources | 10.10.30.0/24 | 10.10.30.1 |
+| 40 | Finance | 10.10.40.0/24 | 10.10.40.1 |
+| 50 | Sales | 10.10.50.0/24 | 10.10.50.1 |
+| 60 | Customer Support | 10.10.60.0/24 | 10.10.60.1 |
+| 70 | Servers | 10.10.70.0/24 | 10.10.70.1 |
+| 80 | CCTV | 10.10.80.0/24 | 10.10.80.1 |
+| 90 | Printers | 10.10.90.0/24 | 10.10.90.1 |
+| 100 | Guest Wi-Fi | 10.10.100.0/24 | 10.10.100.1 |
+| 110 | Network Management | 10.10.110.0/24 | 10.10.110.1 |
+
+---
+
+# Design Principles
+
+The VLAN design follows these principles:
+
+- Department-based segmentation
+- Reduced broadcast domains
+- Improved network security
+- Easier troubleshooting
+- Better scalability
+- Support for future expansion
+
+---
+
+# Security Considerations
+
+- Finance and HR VLANs are isolated from Guest Wi-Fi.
+- CCTV devices communicate only with the Network Video Recorder (NVR).
+- Servers are hosted in a dedicated VLAN.
+- Network management traffic is restricted to authorized administrators.
+- Guest Wi-Fi users have Internet-only access.
+
+---
+
+# Expected Benefits
+
+- Enhanced security
+- Improved performance
+- Simplified administration
+- Reduced broadcast traffic
+- Better fault isolation
