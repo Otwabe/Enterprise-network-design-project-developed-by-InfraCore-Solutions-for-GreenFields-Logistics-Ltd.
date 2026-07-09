@@ -32,7 +32,7 @@ The project follows a real-world infrastructure consulting approach—from busin
 
 ## Enterprise Network Topology
 
-![Enterprise Network Topology](diagrams/etworkdesignandinfrastructureinfographic.png)
+![Enterprise Network Topology](diagrams/etwork design and infrastructure infographic.png)
 
 
 ## Architecture Preview
